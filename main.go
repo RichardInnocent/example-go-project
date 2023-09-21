@@ -6,5 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(dep.ExampleStruct{Value: "Hello, world!"})
+	fmt.Println(dep.ExampleStruct{
+		Value: "Hello, world!",
+	})
 }
